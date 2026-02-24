@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Deploy Files to Server
+      - name: Copy Dummy Files to Server
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.TEST_SERVER_IP }}
