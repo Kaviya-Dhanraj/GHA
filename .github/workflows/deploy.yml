@@ -19,5 +19,5 @@ jobs:
           host: ${{ secrets.TEST_SERVER_IP }}
           username: ${{ secrets.TEST_SERVER_USER }}
           key: ${{ secrets.TEST_SERVER_SSH_KEY }}
-          source: "test-file-1.txt,test-file-2.txt"
+          source: "testfile1.txt,testfile2.txt"
           target: "/root/"
